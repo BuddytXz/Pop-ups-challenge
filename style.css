@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    padding: 2%;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 2%;
+    text-align: center;
+    position: relative;
+    border-radius: 1rem;
+    background-color: white;
+    width: 350px;
+    height: 350px ;
+    box-shadow: 0px 4px 21px -4px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 4px 21px -4px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 4px 21px -4px rgba(0,0,0,0.48);
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.img_box1 {
+    width: 120px;
+}
+
+
+.button__box1 {
+    cursor: pointer;
+    color: white;
+    padding: 4% 12%;
+    background-color: #ED6755;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    box-shadow: 0px 5px 20px 0.2px #ED6755;
+}
+
+.button__box1:hover {
+    box-shadow: 0px 5px 20px 0.2px black;
+}
+
+.fa-solid{
+    cursor: pointer;
+    color: rgb(175, 175, 175);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.fa-solid:hover {
+    color: black;
+}
+
+.signup__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+    text-align: center;
+    position: relative;
+    border-radius: 1rem;
+    background-color: white;
+    width: 350px;
+    height: 350px ;
+}
+
+.button__signup {
+        cursor: pointer;
+        color: white;
+        padding: 4% 12%;
+        background-color: #2C3E50;
+        outline: none;
+        border: none;
+        border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        -moz-border-radius: 0.4rem;
+        -ms-border-radius: 0.4rem;
+        -o-border-radius: 0.4rem;
+        box-shadow: 0px 5px 20px 0.2px black;
+    
+}
